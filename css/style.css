@@ -1,4 +1,83 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
+background-color: #ffffff;
+font-size: 10px;
+font-family: system-ui, sans-serif;
+display: block;
+width: 400px;
+margin: auto;
+}
+
+.container {
+  display:inline-block;
+}
+
+.emphasis {
   background-color: #dadada;
-  font-size: 10px;
+  display: inline-block;
+  width: 100%;
+  padding: 35px;
+  text-align: center;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: .2em;
+}
+
+.preview.baku {
+  background-image: url(../images/baku.jpg);
+  background-position: center;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 350px;
+  font-family: serif;
+  font-size: 2.5em;
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.preview.london {
+  border-top: 20px solid #dadada;
+  background-image: url(../images/london.png);
+  background-position: center;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 350px;
+  font-family: serif;
+  font-size: 2.5em;
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.preview.madrid {
+  border-top: 20px solid #dadada;
+  background-image: url(../images/madrid.jpg);
+  background-position: center;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 350px;
+  font-family: serif;
+  font-size: 2.5em;
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.preview.rome {
+  border-top: 20px solid #dadada;
+  background-image: url(../images/rome.jpg);
+  background-position: center;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 350px;
+  font-family: serif;
+  font-size: 2.5em;
+  padding-left: 45px;
+  padding-top: 45px;
 }
