@@ -1,33 +1,43 @@
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
-background-color: #ffffff;
-font-size: 10px;
-font-family: system-ui, sans-serif;
-display: block;
-width: 400px;
-margin: auto;
+  font-size: 10px;
+  font-family: system-ui, sans-serif;
+  background-color: #dadada;
 }
 
 .container {
-  display:inline-block;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
 }
 
 .emphasis {
-  background-color: #dadada;
-  display: inline-block;
-  width: 100%;
-  padding: 10%;
-  text-align: center;
   font-size: 1.7em;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: .2em;
 }
 
-
+div {
+  float: left;
+  margin: 1%;
+  width: 100%;
+  /*border: 1px solid green;*/
+}
+.preview {
+  background-position: center;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  height: 300px;
+  font-family: serif;
+  font-size: 2em;
+  padding-left: 35px;
+  text-align: left;
+}
 
 .baku {
   background-image: url(../images/baku.jpg);
@@ -43,29 +53,17 @@ margin: auto;
 .madrid {
   background-image: url(../images/madrid.jpg);
 }
-.preview {
-  border-bottom: 20px solid #dadada;
-  background-position: center;
-  background-size: 400px 400px;
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 350px;
-  font-family: serif;
-  font-size: 2.5em;
-  padding-left: 45px;
-  padding-top: 45px;
-}
+
 
 @media screen and (min-width: 575px){
    div {
-    margin: 1%;
     width: 48%;
+    /*border: 1px solid red;*/
   }
 }
-
 @media screen and (min-width: 991px){
    div {
-    margin: 1%;
-    width: 48%;
+    width: 23%;
+    /*border: 1px solid blue;*/
   }
 }
